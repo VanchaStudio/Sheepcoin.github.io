@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mobile Website</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    .button {
+        display: inline-block;
+        background-color: #000000;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 50%;
+        text-decoration: none;
+    }
+    .number {
+        font-size: 24px;
+    }
+</style>
+</head>
+<body>
+<div>
+    <span class="number">0</span>
+</div>
+<a href="#" class="button">
+    <img src="SheepFace.png" alt="Sheep Face" width="100" height="100">
+</a>
+<script>
+    let number = 0;
+    const numberElement = document.querySelector('.number');
+    const button = document.querySelector('.button');
+    button.addEventListener('click', () => {
+        number++;
+        numberElement.textContent = number;
+    });
+</script>
+</body>
+</html>
