@@ -1,0 +1,55 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #2C2C2C;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.MainButton {
+    display: inline-block;
+    background-color: #000000;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.MainButton:active {
+    opacity: 0.8;
+    transform: scale(1.02)
+}
+.money {
+    display: grid;
+    place-items: center;
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #4CAF50;
+}

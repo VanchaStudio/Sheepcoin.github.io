@@ -3,9 +3,9 @@ const button = document.querySelector("MainButton")
 const numberElement = document.querySelector('.number');
 
 function codeAdress() {
+    /*localStorage.setItem("Energy", 100)*/
     numberElement.textContent = localStorage.getItem("Money");
     number = localStorage.getItem("Money");
-    alert('money upload')
 }
 window.onload = codeAdress;
 
@@ -15,4 +15,5 @@ function ClickButton() {
     localStorage.setItem("Money", number);
     numberElement.textContent = number;
 }
+
 button.addEventListener('click', "ClickButton");
