@@ -29,6 +29,13 @@ body {
     margin-bottom: 20px;
 }
 
+.energy {
+    width: 100vh;
+    color: #ffffff;
+}
+
+
+
 ul {
     list-style-type: none;
     margin: 0;
