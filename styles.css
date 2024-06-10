@@ -19,7 +19,7 @@ body {
 
 .MainButton:active {
     opacity: 0.8;
-    transform: scale(1.02)
+    transform: scale(1.1)
 }
 .money {
     display: grid;
